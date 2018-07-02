@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Planning Poker</title>
+  </head>
+  <body>
+    <header>
+      <h1>Planning Poker</h1>
+    </header>
+
+<!-- The carousel or rather number picker -->
+  <article class="carouselWhole" id="carouselWhole">
+    <h2 class="slideHeader">Choose your card:</h2>
+    <div class="carousel" id="carousel">
+      <button class="buttonLeft" id="left" onclick="next(-1)">-</button>
+      <div class="numberSpinner" id="numberSpinner">
+        <!--Content of the spinner is created in Script.js-->
+      </div>
+      <button class="buttonRight" id="right" onclick="next(+1)">+</button>
+    </div>
+  </article>
+
+  <div class="result" id="result">
+    <div class="card" class="yourCard" id="yourCard"></div>
+  </div>
+  </body>
+</html>

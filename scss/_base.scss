@@ -1,0 +1,10 @@
+@font-face {
+    font-family: DINregular;
+    src: url('../DINRegular.ttf') format('truetype');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: DINregular;
+}
