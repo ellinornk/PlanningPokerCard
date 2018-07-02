@@ -1,0 +1,19 @@
+.carousel{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.slideHeader{
+  padding: 2em;
+}
+
+.slideNumber{
+  @include cardStyle;
+}
+.buttonLeft{
+  //@include buttonStyleSlide;
+}
+.buttonRight{
+  //@include buttonStyleSlide;
+}
