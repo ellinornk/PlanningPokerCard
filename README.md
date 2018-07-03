@@ -15,7 +15,7 @@ Github repository: https://github.com/ellinornk/PlanningPokerCard
 
 ___
 
-####Things to improve:
+#### Things to improve:
 
 - Fix media queries to fit it better to different screens
 - Add animation to result card to make it look like a card turning over
