@@ -6,14 +6,15 @@
 
 .slideHeader{
   padding: 2em;
+  text-align: center;
 }
 
 .slideNumber{
   @include cardStyle;
 }
 .buttonLeft{
-  //@include buttonStyleSlide;
+  @include buttonStyleSlide;
 }
 .buttonRight{
-  //@include buttonStyleSlide;
+  @include buttonStyleSlide;
 }

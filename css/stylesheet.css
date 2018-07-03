@@ -27,16 +27,73 @@ header {
   flex-wrap: wrap; }
 
 .slideHeader {
-  padding: 2em; }
+  padding: 2em;
+  text-align: center; }
 
 .slideNumber {
   padding: 3em;
-  border: 2px solid #2b2f2f;
-  border-radius: 5px;
-  font-size: 2em; }
+  font-size: 2em;
+  font-size: 500%; }
 
-.card {
-  border: 2px #2b2f2f;
-  border-radius: 5px;
-  width: 30%;
-  height: 70%; }
+.buttonLeft {
+  width: 3em;
+  background-color: #66b0c7;
+  color: white;
+  font-size: 150%; }
+
+.buttonRight {
+  width: 3em;
+  background-color: #66b0c7;
+  color: white;
+  font-size: 150%; }
+
+.result {
+  display: none;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 5em; }
+
+.yourCard {
+  font-size: 500%;
+  position: relative;
+  border-radius: 10px;
+  background: -webkit-gradient(linear, right top, left top, from(#2fd68d), to(#66b0c7));
+  background: -webkit-linear-gradient(right, #2fd68d, #66b0c7);
+  background: -o-linear-gradient(right, #2fd68d, #66b0c7);
+  background: linear-gradient(-90deg, #2fd68d, #66b0c7);
+  width: 7em;
+  height: 10em; }
+  .yourCard p {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+  .yourCard img {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+.reloadButton {
+  width: 100%;
+  padding: 5em;
+  text-align: center; }
+
+.button {
+  border: 5px solid #66b0c7;
+  background-color: #66b0c7;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 150%;
+  height: 4em;
+  width: auto; }

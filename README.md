@@ -14,3 +14,10 @@ Github repository: https://github.com/ellinornk/PlanningPokerCard
 3. Reveal phase: The card that you chose in step one is revealed. Another interaction will then get you to Select phase again.
 
 ___
+
+####Things to improve:
+
+- Fix media queries to fit it better to different screens
+- Add animation to result card to make it look like a card turning over
+- switch onclick to eventlistners
+- try to make the code more semantic

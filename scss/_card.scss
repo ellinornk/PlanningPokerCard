@@ -1,6 +1,44 @@
-.card{
-  border: 2px $darkGray;
-  border-radius: 5px;
-  width: 30%;
-  height: 70%;
+.result{
+  display:none;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5em;
+}
+.yourCard{
+  font-size: 500%;
+  position: relative;
+  border-radius: 10px;
+  background: linear-gradient(-90deg, $green, $blue);
+  width: 7em;
+  height: 10em;
+  p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+  img{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+}
+
+.reloadButton{
+  width: 100%;
+  padding: 5em;
+  text-align: center;
+}
+.button{
+  border: 5px solid $blue;
+  background-color: $blue;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 150%;
+  height: 4em;
+  width: auto;
 }

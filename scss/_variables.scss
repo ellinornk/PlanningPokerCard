@@ -1,10 +1,17 @@
 $darkGray: #2b2f2f;
 $blue: #66b0c7;
+$green: #2fd68d;
 
 
 @mixin cardStyle{
   padding: 3em;
-  border: 2px solid $darkGray;
-  border-radius: 5px;
   font-size: 2em;
+  font-size: 500%;
+}
+
+@mixin buttonStyleSlide{
+  width: 3em;
+  background-color: $blue;
+  color: white;
+  font-size: 150%;
 }

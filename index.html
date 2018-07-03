@@ -24,8 +24,12 @@
   </article>
 
   <div class="result" id="result">
-    <div class="card" class="yourCard" id="yourCard"></div>
-    <input type="button" href="index.html">
+    <div class="yourCard" id="yourCard" onclick="showCard()">
+      <img src="img/ChasLogoSvgWht.svg" id="logo">
+    </div>
+    <div class="reloadButton">
+      <button onclick="window.location.reload();" class="button">Choose another card</button>
+    </div>
   </div>
   </body>
 </html>

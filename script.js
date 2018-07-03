@@ -50,8 +50,26 @@ function toResults(i){
   let numberCarousel = document.getElementById("carouselWhole");
   numberCarousel.setAttribute("style", "display: none");
 
-  let chosenNumber = [i];
-  console.log(chosenNumber);
-  localStorage.setItem("theCard", chosenNumber );
-  document.getElementById("yourCard").innerHTML = localStorage.getItem("theCard");
+  let chosenNumber = i;
+
+  //places the right number on the card the user choose
+  let resultCard = document.getElementById("yourCard");
+  let resultP = document.createElement("p");
+  resultP.setAttribute("id","resultP");
+  resultP.setAttribute("style","display: none");
+  let resultText = document.createTextNode(chosenNumber);
+  resultP.appendChild(resultText);
+  resultCard.appendChild(resultP);
+}
+
+function showCard(){
+  //shows the chosen number
+  let theResult = document.getElementById("resultP");
+  theResult.setAttribute("style","display: flex");
+  //changes the background to white
+  let resultDiv = document.getElementById("yourCard");
+  resultDiv.setAttribute("style","background: white");
+  //hides the chas logo
+  let img = document.getElementById("logo");
+  img.setAttribute("style","display:none");
 }
