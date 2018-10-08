@@ -1,6 +1,8 @@
 # PlanningPoker
 
-Github repository: https://github.com/ellinornk/PlanningPokerCard
+GitHub repository: https://github.com/ellinornk/PlanningPokerCard
+
+Live page via GitHub: https://ellinornk.github.io/PlanningPokerCard/
 
 ##### Very VERY important:
 "Count to three, no more, no less. Three shall be the number thou shalt count, and the number of the counting shall be three. Four shalt thou not count, neither count thou two, excepting that thou then proceed to three."
